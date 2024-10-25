@@ -316,7 +316,10 @@ header .navbar{
         padding: 0 20px;
     }
 
-    
+    .landingseccion .imagewrapper{
+        display: none;
+    }
+        
 
   
     
