@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 body{
@@ -23,7 +30,6 @@ body{
 .navbar .TasteNest{
     color:rgb( 250, 159, 66);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
 }
 .formulario{
@@ -181,4 +187,85 @@ input[type="submit"]:hover{
 
 .facebook-btn {
     color: #4267B2;
+}
+
+/* Media Query para pantallas hasta 900px */
+@media screen and (max-width: 900px) {
+    body {
+        background: white; /* Elimina la imagen de fondo */
+    }
+
+    .formulario {
+        width: 90%;
+        max-width: 500px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 20px auto;
+    }
+
+    .social-login {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-login button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Media Query para pantallas hasta 600px */
+@media screen and (max-width: 600px) {
+    .navbar .TasteNest {
+        font-size: 20px;
+    }
+
+    .formulario {
+        width: 95%;
+        padding-top: 15px;
+        margin: 10px auto;
+    }
+
+    .formulario form {
+        padding: 0 20px;
+    }
+
+    .formulario h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    .username input {
+        font-size: 14px;
+    }
+
+    .username label {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .social-login button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .social-login button img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .recordar {
+        font-size: 14px;
+    }
+
+    .registrarse {
+        font-size: 14px;
+        text-align: center;
+    }
 }
