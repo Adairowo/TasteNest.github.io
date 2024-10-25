@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:padding;
+    padding:0;
+    font-family:sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.navbar{
+    padding: 1.5rem;
+    background-color: rgb(10, 27, 44);
+    align-items: center;
+}
+
+.navbar .TasteNest{
+    color:rgb( 250, 159, 66);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+.formulario{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px; 
+    padding-top: 20px; /* Le agrego padding de arriba porque hay muy poco espacio con el inicio de sesion*/
+    padding-bottom: 15px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;/**/
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box; 
+} 
+
+form .username{
+    position: relative;
+    border-bottom:2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border:none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .25s;
+
+}
+
+.username spam::before{
+    content: '';
+    position: absolute;
+    top: 40px;  
+    left: 0;    
+    width: 100%;
+    height: 2px ;
+    background-color: #6c3483;
+    transition: .25s;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: .5px;
+    color: #6c3483;
+
+} 
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100% ;
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color:blue;
+    cursor: pointer;
+}
+
+.recordar hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #FA9F42;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background-color: #FA9F42;
+    border-radius: 25px;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: orange;
+    transition: .5s;
+}
+
+.registrarse{
+    padding: 1vh;
+}
+
+.registrarse a{
+    color: blue;
+    text-decoration: none;
+ 
+}
+
+.registrarse a:hover{   /*Esto es para que salga una linea abajo de las letras al pasar el mouse*/
+    text-decoration: underline;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-login button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.social-login button img { /*Atributos para los botones de redes sociales*/
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;     
+}
+
+.google-btn {
+    color: #DB4437;
+}
+
+.facebook-btn {
+    color: #4267B2;
+}

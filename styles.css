@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*Aqui voy a poner los colores que voy a usar  
+
+Naranja principal fa9f42
+Rich blue 0a1b2c
+Azul oscuro 273258
+azul clarito bdd5ea
+*/
+
+/*Estilos para la pagina*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background:none ;
+}
+.separacion{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1800px;
+}
+img{
+    width: 100%;
+}
+/*Estilos para el navbar*/
+header{ 
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: rgb(10, 27, 44);
+}
+
+
+header .navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-logo .logo-text{
+    color: rgb(250, 159, 66);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: white; 
+    font-size: 1.12rem;
+    border-radius: 24rem;
+    transition: 0.3s ease;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: black;
+
+    background-color: rgb(250, 159, 66);
+}
+/*Seccion landing*/
+
+
+.landingseccion{
+    min-height: 100vh;
+    background-color: rgb(10, 27, 44);
+}
+
+.landingseccion .section-content{
+    padding: 0 60px;
+    display: flex;
+    max-width: 1800px;
+    margin: 0 auto;
+
+    align-items: center;
+    min-height: 100vh;
+    color:white;
+    justify-content: space-between;
+}
+.landingseccion .detalles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.landingseccion .detalles .titulo{
+    font-size: 3.5rem;
+    color: white;  
+    margin-bottom: 20px;
+    max-width: 600px;
+    
+}
+
+.landingseccion .detalles .subtitulo{
+    font-size: 1.12rem; 
+    margin-top: 24px 0 40px;
+    max-width: 70%;
+    margin-bottom: 30px;
+}
+
+.landingseccion .imagewrapper{
+    max-width: 500px;
+    margin-right: 30px;
+    
+}
+
+.landingseccion .imagewrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /*  para darle bordes redondeados */
+    object-fit: cover; 
+    
+}
+
+.landingseccion .detalles .boton{
+    padding: 10px 26px;
+    background: rgb(250, 159, 66);
+    color:rgb(0, 0, 0);
+    border-radius: 24rem; 
+}
+
+.landingseccion .detalles .buttons{
+    display: flex;
+    gap: 23px;
+}
+
+.landingseccion .detalles .buttons a{
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+
+/*Aqui voy a dar unas animaciones a los botones para cuando pase el mouse sobre ellos*/
+
+
+
+/*Seccion de galeria*/
+
+.galeriaseccion {
+    padding: 50 0 100px;
+}
+
