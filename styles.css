@@ -145,6 +145,13 @@ header .navbar{
     border-radius: 24rem; 
 }
 
+.landingseccion .detalles .boton:hover{
+    padding: 10px 26px;
+    background: WHITE;
+    color:rgb(0, 0, 0);
+    border-radius: 24rem; 
+}
+
 .landingseccion .detalles .buttons{
     display: flex;
     gap: 23px;
