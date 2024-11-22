@@ -9,7 +9,7 @@ CREATE TABLE Usuarios (
     contrasena VARCHAR(255),
     telefono VARCHAR(15),
     direccion VARCHAR(255),
-    es_vendedor BOOLEAN
+    es_vendedor varchar(5)
 );
 
 -- Tabla: Menu
