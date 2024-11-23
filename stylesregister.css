@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -20,7 +23,7 @@ body {
 .navbar .TasteNest {
     color: rgb(250, 159, 66);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     font-size: 24px;
 }
 
@@ -175,5 +178,83 @@ input[type="submit"]:hover {
 .iniciar-sesion a:hover {
     text-decoration: underline;
 }
+
+/* MEDIA QUERY PARA */
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-container {
+        height: none; 
+        flex: none;
+    }
+
+    .formulario {
+        flex: none;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .social-login {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-login button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* AQUI ESTA EL MEDIA QUERY PARA QUE SE VEA CHIDO EN EL CEL */
+@media screen and (max-width: 600px) {
+    .navbar .TasteNest {
+        font-size: 20px;
+    }
+
+    .formulario {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .formulario h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    .username input {
+        font-size: 14px;
+    }
+
+    .username label {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .social-login button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .social-login button img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .iniciar-sesion {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
 
 
