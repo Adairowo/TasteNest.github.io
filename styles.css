@@ -403,6 +403,13 @@ header .navbar{
         flex-direction: column-reverse;
     }
 
+    .contactoseccion .section-content{
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 30px 20px 30px;
+       
+    }
+
     .footer-section .section-content {
         padding: 0 20px;
     }
@@ -410,11 +417,6 @@ header .navbar{
     .landingseccion .imagewrapper{
         display: none;
     }
-
-    
-
-  
-    
 }
 
 @media screen and (max-width: 600px) {
