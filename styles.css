@@ -170,6 +170,7 @@ header .navbar{
 
 .galeriaseccion {
     padding: 50px 60px 100px;
+    background-color: bisque;
 }
 
 .galeriaseccion .galeriatitulo {
@@ -177,6 +178,9 @@ header .navbar{
     margin-bottom: 40px; /* Espacio entre el título y la galería */
     font-size: 2.5rem;
     color: rgb(10, 27, 44); 
+    text-decoration: underline;
+    text-decoration-color: rgb(250, 159, 66);
+    text-decoration-thickness: 0.5rem;
 }
 
 .galeriaseccion .galerialista{
@@ -201,6 +205,82 @@ header .navbar{
 .galeriaseccion .galeriaobjetos:hover .galeriaimg{ /*Voy a darle animacion para cuando pase el mouse*/
     transform: scale(1.3);
 }
+/*SECCION DE CONTACTO ESTILOS */
+.contactoseccion {
+    padding: 50px 0 100px;
+    text-align: center; 
+    background-color: bisque;
+}
+
+.contactoseccion .contacto-titulo {
+    text-align: center; 
+    margin-bottom: 40px; 
+    font-size: 2.5rem; 
+    color: rgb(10, 27, 44); 
+    text-decoration: underline;
+    text-decoration-color: rgb(250, 159, 66);
+    text-decoration-thickness: 0.5rem;
+}
+
+.contactoseccion .section-content {
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: center; 
+}
+
+.contactoseccion .contactoinfolista {
+    margin-left: 50px; 
+}
+
+.contactoseccion .contactoinfolista .contactoinfo {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.contactoinfo .contactoinfolista .contactoinfo i {
+    font-size: 24rem;
+}
+
+.contactoseccion .contact-form .form-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 12px;
+    outline: none;
+    margin-bottom: 16px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.contactoseccion .contact-form .form-input:focus {
+    border-color: rgb(58, 36, 8);
+}
+
+.contactoseccion .contact-form textarea.form-input {
+    height: 100px;
+    padding: 12px;
+    resize: vertical;
+}
+
+.contactoseccion .contact-form .submit-button {
+    padding: 10px 26px;
+    background-color: #fa9f42; 
+    font-size: 1rem;
+    color: black;
+    border-radius: 6px;
+    border: none; /* Eliminar borde */
+    transition: background-color 0.3s ease; 
+}
+
+.contactoseccion .contact-form .submit-button:hover {
+    background-color: #e68a2f; /* Color de fondo al pasar el mouse */
+    color: white; 
+}
+
+
 
 /*Footer diseno css!!!!!!!!!!!*/
 .footer-section {
@@ -309,6 +389,10 @@ header .navbar{
         width: calc((100% - 32px) / 2); /* 2 columnas en tablets */
     }
 
+    .landingseccion {
+        padding-top: 80px; /* Espacio para el navbar en mobile */
+    }
+
     .landingseccion .detalles {
         padding-bottom: 30px;
     }
@@ -326,7 +410,8 @@ header .navbar{
     .landingseccion .imagewrapper{
         display: none;
     }
-        
+
+    
 
   
     
