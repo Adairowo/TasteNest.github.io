@@ -107,6 +107,7 @@ header .navbar{
     flex-wrap: wrap;
     align-items: center;
     gap: 40px;
+    max-width: 60%;
 }
 
 .landingseccion .detalles .titulo{
@@ -143,12 +144,14 @@ header .navbar{
     background: rgb(250, 159, 66);
     color:rgb(0, 0, 0);
     border-radius: 24rem; 
+    transition: 0.3s ease;
 }
 
 .landingseccion .detalles .boton:hover{
     padding: 10px 26px;
-    background: WHITE;
-    color:rgb(0, 0, 0);
+    background: transparent;
+    color:rgb(250,159,66);
+    outline:2px solid  rgb(250, 159, 66);
     border-radius: 24rem; 
 }
 
@@ -395,12 +398,20 @@ header .navbar{
 
     .landingseccion .detalles {
         padding-bottom: 30px;
+        max-width: none;
     }
+    
 
    
 
     .landingseccion .section-content{
         flex-direction: column-reverse;
+        margin-top: -15vh;
+        
+    }
+
+    .landingseccion .detalles .titulo{
+        font-size: 2rem;
     }
 
     .contactoseccion .section-content{
