@@ -206,7 +206,7 @@ header .navbar{
 }
 
 .galeriaseccion .galeriaobjetos:hover .galeriaimg{ /*Voy a darle animacion para cuando pase el mouse*/
-    /*transform: scale(1.3);*/
+    transform: scale(1.15);
 }
 /*SECCION DE CONTACTO ESTILOS */
 .contactoseccion {
