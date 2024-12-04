@@ -89,7 +89,7 @@ VALUES (1, 'Tacos al Pastor', 'Deliciosos tacos con piña y carne al pastor.', 5
 --Insertar reseña
 
 INSERT INTO Reseñas (usuario_id, vendedor_id, calificacion, reseña_texto)
-VALUES (2, 1, 5, 'voy a venir mas seguido estuvo myu buena la comida!');
+VALUES (2, 1, 5, 'voy a venir mas seguido estuvo muy buena la comida!');
 
 --CONSULTAS DE INNER JOIN
 --Obtener las reseñas con el nombre del usuario que las realizó
