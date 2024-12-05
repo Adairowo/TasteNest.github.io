@@ -12,7 +12,7 @@
         <!-- END SIDEBAR -->
         <main class="flex-grow-1" style="background-color: #FFE8B7;">
             <!-- HEADER -->
-            <?php include "./layouts/header.php" ?>
+        <?php include "./layouts/header.php" ?>
             <!-- END HEADER -->
             <!-- ROW STATS -->
         </main>
