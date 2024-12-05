@@ -54,7 +54,7 @@ const form = document.getElementById("userForm");
       }
     });
 
-
+    //MODAL EDIT
     var botones=document.getElementsByClassName("btnEdit")
     for(var i=0, i<botones.length, i++0)[
       botones[i].onClick=()=>{

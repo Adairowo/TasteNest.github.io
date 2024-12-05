@@ -22,11 +22,11 @@
             </div>
     
             <!-- Tabla de usuarios -->
-            <div class="table-responsive">
+            <div class="table-responsive" style="padding: 0px 50px 50px">
               <table class="table table-striped table-hover">
-                <thead class="table-dark">
+                <thead class="table-dark" >
                   <tr>
-                    <th>#</th>
+                    <th>ID</th>
                     <th>Nombre de Usuario</th>
                     <th>Email</th>
                     <th>Fecha de Registro</th>
@@ -53,7 +53,7 @@
                        <!-- Botón para editar -->
     <button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#addUserModal">
       <i class="bi bi-pencil-square"></i> Editar
-  </button>
+  </button> x
   <!-- Botón para eliminar -->
   <button class="btn btn-sm btn-danger btnEliminar"
           data-id="<?php echo $fila['user_id']; ?>"
