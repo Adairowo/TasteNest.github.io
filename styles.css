@@ -26,6 +26,10 @@ a{
     text-decoration: none;
 }
 
+b{
+    text-decoration: none;
+}
+
 button{
     cursor: pointer;
     border: none;

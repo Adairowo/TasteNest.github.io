@@ -35,16 +35,27 @@
             <!-- ROW STATS -->
         <div class="row mx-4 px-4 my-4">
             <div class="col-3">
+<<<<<<< Updated upstream
                 <div class="card justify-content-center">
                     <div class="card-body" style="background-color:#ff595e">
                         <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS</h6>
                         <h6 class="h3 fs-5">$30,000.00</h6>
+=======
+                <div class="card">
+                    <div class="card-body hvr-glow" style="background-color:#ff595e">
+                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS MENSUALES</h6>
+                        <h6 class="h3">$30,000.00</h6>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
+<<<<<<< Updated upstream
                     <div class="card-body   " style="background-color:#ffca3a">
+=======
+                    <div class="card-body hvr-glow" style="background-color:#ffca3a">
+>>>>>>> Stashed changes
                         <h6><i class="bi bi-people"></i>&nbsp;&nbsp;PEDIDOS HECHOS</h6>
                         <h6 class="h3 fs-5">52</h6>
                     </div>
@@ -52,7 +63,7 @@
             </div>
             <div class="col-3">
                 <div class="card">
-                    <div class="card-body" style="background-color:#8ac926">
+                    <div class="card-body hvr-glow" style="background-color:#8ac926">
                         <h6><i class="bi bi-egg-fried"></i>&nbsp;&nbsp;MENUS ARCHIVADOS</h6>
                         <h6 class="h3 fs-5">56</h6>
                     </div>
@@ -60,34 +71,64 @@
                 </div>
             <div class="col-3">
                 <div class="card">
+<<<<<<< Updated upstream
                     <div class="card-body" style="background-color:#1982c4">
                         <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS</h6>
                         <h6 class="h3 fs-5">123</h6>
+=======
+                    <div class="card-body hvr-glow" style="background-color:#1982c4">
+                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS REGISTRADOS</h6>
+                        <h6 class="h3">$3,200.00</h6>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
         </div>
             <!-- END ROW STATS -->
-            <!-- CHARTS -->
-        <div class="row mx-4 px-4 my-4">
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-header">INGRESOS MENSUALES</div>
+            <div class="row mx-4 px-4 my-4 pt-5">
+    <div class="col-12 text-center">
+        <h2>Opiniones de usuarios</h2>
+    </div>
+</div>
+            <!-- OPINIONES ANONIMAS DEL INDEX.HTML -->
+            <div class="row mx-4 px-4 my-4">
+    <div class="col-12">
+        <div id="opinionesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Aquí se agregarán las opiniones dinámicamente -->
+                <div class="carousel-item active">
+                    <div class="card text-center">
                         <div class="card-body">
-                            <canvas id="chartIngresos"></canvas>
+                            <h5 class="card-title">Nombre: Juan Pérez</h5>
+                            <p class="card-text">Correo: juanperez@example.com</p>
+                            <p class="card-text">Opinión: ¡Excelente servicio y comida deliciosa!</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-header">PEDIDOS HECHOS</div>
+                <div class="carousel-item">
+                    <div class="card text-center">
                         <div class="card-body">
-                            <canvas id="chartDietas"></canvas>
+                            <h5 class="card-title">Nombre: María López</h5>
+                            <p class="card-text">Correo: marialopez@example.com</p>
+                            <p class="card-text">Opinión: Me encantó la experiencia, volveré pronto.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Agrega más opiniones aquí -->
             </div>
-            <!-- END CHARTS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="prev">
+                <span class="bi bi-arrow-left" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="next">
+                <span class="bi bi-arrow-right" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+        <!-- BAUL OPINIONES -->
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

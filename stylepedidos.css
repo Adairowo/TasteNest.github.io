@@ -1,0 +1,45 @@
+/*Aqui voy a poner los colores que voy a usar  
+
+Naranja principal fa9f42
+Rich blue 0a1b2c
+Azul oscuro 273258
+azul clarito bdd5ea
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: bisque;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+section > h2 {
+    text-align: center;
+    margin-bottom: 40px; /* Espacio entre el título y la galería */
+    font-size: 2.5rem;
+    color: rgb(10, 27, 44); 
+    text-decoration: underline;
+    text-decoration-color: rgb(250, 159, 66);
+    text-decoration-thickness: 0.5rem;
+    padding-top: 10px;
+}
+
+@media (max-width:991px) {
+    .sidebar{
+        background-color: rgb(255, 255, 255,0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    
+}
+
