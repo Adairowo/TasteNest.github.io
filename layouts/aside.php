@@ -11,27 +11,27 @@
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">-->
         <link rel="stylesheet" href="css\hover.css">
 </head>
-<aside class="col-md-3 col-lg-2 d-md-block sidebar vh-100 hvr-glow" style="background-color:rgb(10, 27, 44);">
+<aside class="col-md-3 col-lg-2 d-md-block sidebar vh-100" style="background-color: #fa9f42;">
      <div class="position-sticky">
-        <h4 class="text-center text-light mb-5 py-3">TasteNest Dashboard</h4>
+        <h2 class="text-center text-dark mb-5 py-3 fs-2">TasteNest Dashboard</h4>
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a class="nav-link text-light mb-5 hvr-bob hvr-bounce-to-right w-100" href="./admin.php">
+                <a class="nav-link text-dark mb-5 hvr-bob hvr-bounce-to-right w-100 fs-5" href="./admin.php">
                     <i class="bi bi-house"></i> Inicio
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light mb-5 hvr-bob hvr-bounce-to-right w-100" href="./users.php">
-                    <i class="bi bi-people"></i> Gestión de Usuarios
+                <a class="nav-link text-dark mb-5 hvr-bob hvr-bounce-to-right w-100 fs-5" href="./users.php">
+                    <i class="bi bi-people"></i> Usuarios
                 </a>
             </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mb-5 hvr-bob hvr-bounce-to-right w-100" href="./orders.php">
+                  <a class="nav-link text-dark mb-5 hvr-bob hvr-bounce-to-right w-100 fs-5" href="./orders.php">
                     <i class="bi bi-cart-dash"></i> Pedidos
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mb-5 hvr-bob hvr-bounce-to-right w-100" href="./menus.php">
+                  <a class="nav-link text-dark mb-5 hvr-bob hvr-bounce-to-right w-100 fs-5" href="./menus.php">
                     <i class="bi bi-menu-app"></i>  Menus
                   </a>
                 </li>

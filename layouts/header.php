@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="css\hover.css">
 </head>
 <header style="background-color: beige;">
-    <nav class="px-4 py-4 navbar navbar-expand-lg px-4" style="background-color: #FFE8B7;">
+    <nav class="px-4 py-4 navbar navbar-expand-lg px-4" style="background-color: #273258;">
         <div class="container-fluid">
-                      <h1 class="h2">TasteNest Dashboard</h1>
+                      <h2 class="text-light">Panel de administracion</h2>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -37,7 +37,7 @@
                               ">
                           </li>
                           <li class="nav-item dropdown mx-4">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Katarina
                             </a>
                             <ul class="dropdown-menu">

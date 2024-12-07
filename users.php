@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuarios Dashboard</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+        </style>
 </head>
 <body>
     <div class="d-flex">
         <!-- SIDEBAR -->
         <?php include "./layouts/aside.php" ?>
         <!-- END SIDEBAR -->
-        <main class="flex-grow-1" style="background-color: #FFE8B7;">
+        <main class="flex-grow-1 bg-light">
             <!-- HEADER -->
         <?php include "./layouts/header.php" ?>
             <!-- END HEADER -->
-            <!-- ROW STATS -->
             <div class="d-flex justify-content-end flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">
-                <i class="bi bi-plus"></i> Agregar Usuario
+              <button class="btn btn-primary mx-auto" data-bs-toggle="modal" data-bs-target="#addUserModal">
+                <i class="bi bi-plus-circle-fill"></i> Agregar Usuario
               </button>
             </div>
-    
             <!-- Tabla de usuarios -->
             <div class="table-responsive" style="padding: 0px 50px 50px">
               <table class="table table-striped table-hover">
-                <thead class="table-dark" >
+                <thead class="table-primary" >
                   <tr>
                     <th>ID</th>
                     <th>Nombre de Usuario</th>
@@ -60,8 +68,8 @@
           data-bs-toggle="modal" data-bs-target="#deleteUserModal">
       <i class="bi bi-trash"></i> Eliminar
   </button>
-                    </td>
-                  </tr>
+  </td>
+          </tr>
                   <?php
                     }
                   ?>
@@ -144,9 +152,7 @@
       </div>
     </div>
 </div>
-        </main>
-    
-    
+</main>
     </div>
 </body>
 </html>

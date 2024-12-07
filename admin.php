@@ -11,6 +11,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">-->
         <link rel="stylesheet" href="css/hover.css">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+        </style>
 </head>
 <body>
 
@@ -18,25 +28,25 @@
         <!-- SIDEBAR -->
         <?php include "./layouts/aside.php" ?>
         <!-- END SIDEBAR -->
-        <main class="flex-grow-1" style="background-color: #FFE8B7;">
+        <main class="flex-grow-1 bg-light">
             <!-- HEADER -->
             <?php include "./layouts/header.php" ?>
             <!-- END HEADER -->
             <!-- ROW STATS -->
         <div class="row mx-4 px-4 my-4">
             <div class="col-3">
-                <div class="card">
+                <div class="card justify-content-center">
                     <div class="card-body" style="background-color:#ff595e">
-                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS MENSUALES</h6>
-                        <h6 class="h3">$30,000.00</h6>
+                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS</h6>
+                        <h6 class="h3 fs-5">$30,000.00</h6>
                     </div>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-                    <div class="card-body" style="background-color:#ffca3a">
+                    <div class="card-body   " style="background-color:#ffca3a">
                         <h6><i class="bi bi-people"></i>&nbsp;&nbsp;PEDIDOS HECHOS</h6>
-                        <h6 class="h3">52</h6>
+                        <h6 class="h3 fs-5">52</h6>
                     </div>
                 </div>
             </div>
@@ -44,15 +54,15 @@
                 <div class="card">
                     <div class="card-body" style="background-color:#8ac926">
                         <h6><i class="bi bi-egg-fried"></i>&nbsp;&nbsp;MENUS ARCHIVADOS</h6>
-                        <h6 class="h3">56</h6>
+                        <h6 class="h3 fs-5">56</h6>
                     </div>
                     </div>
                 </div>
             <div class="col-3">
                 <div class="card">
                     <div class="card-body" style="background-color:#1982c4">
-                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS REGISTRADOS</h6>
-                        <h6 class="h3">$3,200.00</h6>
+                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS</h6>
+                        <h6 class="h3 fs-5">123</h6>
                     </div>
                 </div>
             </div>
