@@ -35,10 +35,11 @@
                 <thead class="table-primary" >
                   <tr>
                     <th>ID</th>
-                    <th>Nombre de Usuario</th>
-                    <th>Email</th>
-                    <th>Fecha de Registro</th>
+                    <th>Fecha de creacion</th>
                     <th>Nivel</th>
+                    <th>Nombre completo</th>
+                    <th>Email</th>
+                    <th>Username</th>
                     <th>Acciones</th>
                   </tr>
                 </thead>
@@ -61,7 +62,7 @@
                        <!-- Botón para editar -->
     <button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#addUserModal">
       <i class="bi bi-pencil-square"></i> Editar
-  </button> x
+  </button> 
   <!-- Botón para eliminar -->
   <button class="btn btn-sm btn-danger btnEliminar"
           data-id="<?php echo $fila['user_id']; ?>"

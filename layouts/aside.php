@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">-->
-        <link rel="stylesheet" href="css\hover.css">
+        <link rel="stylesheet" href="../css\hover.css">
 </head>
 <aside class="col-md-3 col-lg-2 d-md-block sidebar vh-100" style="background-color: #fa9f42;">
      <div class="position-sticky">

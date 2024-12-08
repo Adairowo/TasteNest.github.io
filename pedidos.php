@@ -74,9 +74,9 @@ if (!isset($_SESSION['username'])) {
               <a class="nav-link" href="about">Mi perfil</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="about">Dashboard</a>
+              <a class="nav-link" href="dashboard/admin.php">Dashboard</a>
             </li>
-            <li class="nav-item ms-auto">
+            <li class="nav-item mx-2">
               <a class="btn btn-danger" href="php/log_out.php">Cerrar Sesion</a>
             </li>
           </ul>
