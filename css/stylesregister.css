@@ -123,11 +123,6 @@ input[type="submit"] {
     outline: none;
 }
 
-input[type="submit"]:hover {
-    border-color: orange;
-    transition: .5s;
-}
-
 .social-login {
     display: flex;
     justify-content: space-between;

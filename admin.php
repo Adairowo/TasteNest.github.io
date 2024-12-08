@@ -35,27 +35,16 @@
             <!-- ROW STATS -->
         <div class="row mx-4 px-4 my-4">
             <div class="col-3">
-<<<<<<< Updated upstream
                 <div class="card justify-content-center">
                     <div class="card-body" style="background-color:#ff595e">
                         <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS</h6>
                         <h6 class="h3 fs-5">$30,000.00</h6>
-=======
-                <div class="card">
-                    <div class="card-body hvr-glow" style="background-color:#ff595e">
-                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;INGRESOS MENSUALES</h6>
-                        <h6 class="h3">$30,000.00</h6>
->>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card">
-<<<<<<< Updated upstream
                     <div class="card-body   " style="background-color:#ffca3a">
-=======
-                    <div class="card-body hvr-glow" style="background-color:#ffca3a">
->>>>>>> Stashed changes
                         <h6><i class="bi bi-people"></i>&nbsp;&nbsp;PEDIDOS HECHOS</h6>
                         <h6 class="h3 fs-5">52</h6>
                     </div>
@@ -71,15 +60,9 @@
                 </div>
             <div class="col-3">
                 <div class="card">
-<<<<<<< Updated upstream
                     <div class="card-body" style="background-color:#1982c4">
                         <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS</h6>
                         <h6 class="h3 fs-5">123</h6>
-=======
-                    <div class="card-body hvr-glow" style="background-color:#1982c4">
-                        <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS REGISTRADOS</h6>
-                        <h6 class="h3">$3,200.00</h6>
->>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
