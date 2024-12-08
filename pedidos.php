@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    echo '
+    <script>
+        alert("Por favor debes iniciar sesión");
+        window.location= "login.php";
+    </script>
+    ';
+    session_destroy();
+    die();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylepedidos.css">
+    <link rel="stylesheet" href="css/stylepedidos.css">
     <title>TasteNest Pedidos</title>
 </head>
 <body class="vh-100 overflow-hidden bg-light">
@@ -57,6 +72,12 @@
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="about">Mi perfil</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="about">Dashboard</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="btn btn-danger" href="php/log_out.php">Cerrar Sesion</a>
             </li>
           </ul>
         </div>

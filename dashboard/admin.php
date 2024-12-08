@@ -26,11 +26,11 @@
 
     <div class="d-flex">
         <!-- SIDEBAR -->
-        <?php include "./layouts/aside.php" ?>
+        <?php include "../layouts/aside.php" ?>
         <!-- END SIDEBAR -->
         <main class="flex-grow-1 bg-light">
             <!-- HEADER -->
-            <?php include "./layouts/header.php" ?>
+            <?php include "../layouts/header.php" ?>
             <!-- END HEADER -->
             <!-- ROW STATS -->
         <div class="row mx-4 px-4 my-4">
