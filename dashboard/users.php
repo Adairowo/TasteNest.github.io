@@ -35,7 +35,7 @@
                 <thead class="table-primary" >
                   <tr>
                     <th>ID</th>
-                    <th>Fecha de creacion</th>
+                    <th>Fecha de registro</th>
                     <th>Nivel</th>
                     <th>Nombre completo</th>
                     <th>Email</th>
@@ -49,16 +49,10 @@
                   ?>
                   <tr>
                     <td><?php echo $fila['user_id']  ?></td>
-                    <td><?php echo $fila['username']  ?></td>
-                    <td><?php echo $fila['email']  ?></td>
                     <td><?php echo $fila['created_at']  ?></td>
-                    <td><?php 
-                      if($fila['level']==1){
-                        echo '<span class="badge bg-success">Administrador</span>';
-                      }
-                      else{echo '<span class="badge bg-dark">Usuario</span>';}
-                    ?></td>
-                    <td>
+                    <td><?php echo $fila['level']  ?></td>
+                    <td><?php echo $fila['full_name']  ?></td>
+                    <td><?php echo $fila['username']  ?></td>
                        <!-- Botón para editar -->
     <button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#addUserModal">
       <i class="bi bi-pencil-square"></i> Editar

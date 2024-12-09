@@ -37,8 +37,6 @@
             </div>
             <div class="recordar hvr-float">Olvido su contraseña?</div>
             <button> Iniciar Sesion</button>
-            
-            
         </form>
         <div class="registrarse">
                 No tienes una cuenta?<a href="register.php"> Registrarse</a>

@@ -3,6 +3,7 @@
   // Incluye el archivo de conexión a la base de datos
   include 'conexion.php';
   $email= $_POST['email'];
+  $password= $_POST['password'];
   $validar_login = mysqli_query($conexion, "SELECT * FROM users WHERE email = '$email' AND password = '$password'");
 
   if(mysqli_num_rows($validar_login) > 0){
