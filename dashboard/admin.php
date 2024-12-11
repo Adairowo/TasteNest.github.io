@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    echo '
+    <script>
+        alert("Por favor debes iniciar sesión");
+        window.location= "../login.php";
+    </script>
+    ';
+    session_destroy();
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +37,6 @@
         </style>
 </head>
 <body>
-
     <div class="d-flex">
         <!-- SIDEBAR -->
         <?php include "../layouts/aside.php" ?>
@@ -62,7 +75,7 @@
                 <div class="card">
                     <div class="card-body" style="background-color:#1982c4">
                         <h6><i class="bi bi-credit-card"></i>&nbsp;&nbsp;USUARIOS</h6>
-                        <h6 class="h3 fs-5">123</h6>
+                        <h6 class="h3 fs-5">51 </h6>
                     </div>
                 </div>
             </div>

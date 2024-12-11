@@ -18,13 +18,13 @@
 <body>
     <div class="d-flex">
         <!-- SIDEBAR -->
-        <?php include "./layouts/aside.php" ?>
+        <?php include "../layouts/aside.php" ?>
         <!-- END SIDEBAR -->
         <main class="flex-grow-1 bg-light">
             <!-- HEADER -->
-            <?php include "./layouts/header.php" ?>
+            <?php include "../layouts/header.php" ?>
             <!-- END HEADER -->
-            <!-- ROW STATS -->
+            <!-- Tablita -->
         </main>
     </div>
 </body>

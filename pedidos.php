@@ -71,7 +71,7 @@ if (!isset($_SESSION['username'])) {
               <a class="nav-link" href="about">TasteNest agendados</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="about">Mi perfil</a>
+              <a class="nav-link" href="about">Mi perfil </a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="dashboard/admin.php">Dashboard</a>
@@ -123,7 +123,7 @@ if (!isset($_SESSION['username'])) {
 
 </header>
   <main>
-    <section class="" style="height: 50vh;">
+    <section class="p20" style="height: 50vh;">
       <h2 class="fw-semibold">
         Realiza tu Pedido
       </h2>
