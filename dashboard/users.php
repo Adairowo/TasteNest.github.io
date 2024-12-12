@@ -49,7 +49,7 @@
 <?php include '../modales/addUserModal.php'; 
       include '../modales/deleteUserModal.php';
       include '../modales/editUserModal.php';
-
+      include '../modales/viewMenuModal.php';
 ?>
 <script src="../js/addUser.js"></script>
 </body>

@@ -32,9 +32,6 @@ include '../php/conexion.php';
                     <td><?php echo $usuario['email']; ?></td>
                     <td><?php echo $usuario['username']; ?></td>
                     <td>
-                        <a title="Ver detalles del usuario" href="#" onclick="verDetallesUsuario(<?php echo $usuario['user_id']; ?>)" class="btn btn-success">
-                            <i class="bi bi-binoculars"></i>
-                        </a>
                         <button title="Editar datos del usuario" class="btn btn-warning edit-button" 
                                 data-id="<?php echo $usuario['user_id']; ?>"
                                 data-level="<?php echo $usuario['level']; ?>"

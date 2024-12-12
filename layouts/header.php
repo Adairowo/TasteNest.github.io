@@ -45,7 +45,7 @@
                               <li>
                                 <hr class="dropdown-divider">
                               </li>
-                              <li><a class="dropdown-item hvr-fade" href="#"><i class="bi bi-box-arrow-left"></i>&nbsp;&nbsp;Log Out</a></li>
+                              <li><a class="dropdown-item hvr-fade" href="../pedidos.php"><i class="bi bi-box-arrow-left"></i>&nbsp;&nbsp;Volver a inicio</a></li>
                             </ul>
                     </li>
                  </ul>

@@ -24,7 +24,6 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" href="css/stylepedidos.css">
     <title>TasteNest Pedidos</title>
 </head>
-<body class="vh-100 overflow-hidden bg-light">
 <header>
   <!-- NavBar-->
   <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: transparent;">
@@ -123,14 +122,44 @@ if (!isset($_SESSION['username'])) {
 
 </header>
   <main>
-    <section class="p20" style="height: 50vh;">
+    <section class="p20" style="">
       <h2 class="fw-semibold">
         Realiza tu Pedido
       </h2>
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2023/08/08/08/46/tacos-8176774_640.jpg" alt="" class="">
+              <div class="card-body">
+                <h5 class="card-title">Tacos</h5>
+                <p class="card-text">Precio:50$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_640.jpg" alt="" class="">
+              <div class="card-body">
+                <h5 class="card-title">Carne deliciosa</h5>
+                <p class="card-text">Precio : 100$</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2021/10/30/12/50/woman-6754248_640.jpg" alt="" class="">
+              <div class="card-body">
+                <h5 class="card-title">Rica comida vegana</h5>
+                <p class="card-text">Precio: 200$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
   </main>
-</body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
